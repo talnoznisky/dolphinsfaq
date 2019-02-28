@@ -1,0 +1,44 @@
+*{
+  /* border: solid 1px black; */
+  font-family: serif;
+}
+
+.container{
+  margin-bottom:2em;
+  max-width: 40em;
+}
+
+div.img {
+    width: 13vw;
+    max-width: 125px;
+}
+.img-right{
+    transform: rotateY(180deg);
+}
+
+div.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.cell{
+  /* margin: 1px; */
+  padding: 2px;
+  border: solid 1px black;
+  display: flex;
+  align-items: center;
+}
+
+.qa{
+flex-grow: 0;
+}
+
+.big-row{
+  border: solid 1.5px black;
+}
