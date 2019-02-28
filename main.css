@@ -11,6 +11,7 @@
 div.img {
     width: 13vw;
     max-width: 125px;
+    padding:0;
 }
 .img-right{
     transform: rotateY(180deg);

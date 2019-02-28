@@ -1,5 +1,5 @@
 var faq = [
-  {q:"What is 'dolphin?'",
+  {q:"What is 'dolphin'?",
     a:"Dolphin (or dolphins, if there are more than one to talk about! [There are! Probably over six million dolphins exist!]) is a marine mammal."},
   {q:"Are dolphins hiring?",
     a:"Impossible! Although highly sociable, the kingdom of the dolphins is not yet organized into labor relations comparable to ours. Dolphins do, however, boast impressive commodity value in our human economy."},
@@ -37,8 +37,8 @@ const imgcontainer2 = document.createElement('div')
 
 imgcontainer1.setAttribute('class', 'cell col m-1 img img-left')
 imgcontainer2.setAttribute('class', 'cell col m-1 img img-right')
-imgcontainer1.innerHTML = "<img src='dolphin.gif' class='img-fluid'/>"
-imgcontainer2.innerHTML = "<img src='dolphin.gif' class='img-fluid'/>"
+imgcontainer1.innerHTML = "<img src='dolphin.gif' class='img-fluid p-1'/>"
+imgcontainer2.innerHTML = "<img src='dolphin.gif' class='img-fluid p-1'/>"
 title.setAttribute('class', 'cell title col m-1 p-2 align-middle text-center')
 
 header.appendChild(imgcontainer1)
@@ -56,13 +56,13 @@ faq.forEach(function(e){
   const qtext = document.createElement('div')
   const atext = document.createElement('div')
   bigrow.setAttribute('class', 'row big-row container-fluid no-gutters mt-2')
-  smallrowtop.setAttribute('class', 'row container-fluid no-gutters')
-  smallrowbottom.setAttribute('class', 'row container-fluid no-gutters')
+  smallrowtop.setAttribute('class', 'row small-row-top  container-fluid no-gutters')
+  smallrowbottom.setAttribute('class', 'row small-row-bottom container-fluid no-gutters')
 
-  q.setAttribute('class', 'cell qa col m-1 p-2 align-middle')
-  a.setAttribute('class', 'cell qa col m-1 p-2 align-middle')
-  qtext.setAttribute('class', 'cell text col m-1 p-1 align-middle')
-  atext.setAttribute('class', 'cell text col m-1 p-1 align-middle')
+  q.setAttribute('class', 'cell qa col p-3 align-middle')
+  a.setAttribute('class', 'cell qa col p-3 align-middle')
+  qtext.setAttribute('class', 'cell text col p-3 align-middle')
+  atext.setAttribute('class', 'cell text col p-3 align-middle')
 
   container.appendChild(bigrow);
 
