@@ -2,7 +2,7 @@ var faq = [
   {q:"What is 'dolphin'?",
     a:"Dolphin (or dolphins, if there are more than one to talk about! [There are! Probably over six million dolphins exist!]) is a marine mammal."},
   {q:"Are dolphins hiring?",
-    a:"Impossible! Although highly sociable, the kingdom of the dolphins is not yet organized into labor relations comparable to ours. Dolphins do, however, boast impressive commodity value in our human economy."},
+    a:"Impossible! Although highly sociable, the kingdom of the dolphins is not yet organized into labor relations comparable to ours. Under anthro-capitalism, however, dolphins have developed impressive commodity value."},
   {q:"How do I adjust a dolphin's privacy controls?",
     a:"The control of dolphins' privacy varies from setting to setting. In the wild, dolphins may choose for themselves what they want to share. In captivity, dolphins rely on their human administrators to make those decisions. There are many routes to a career in dolphin administration. At present, none are advisable."},
   {q:"How can I comment on other people's dolphins?",
@@ -61,8 +61,8 @@ faq.forEach(function(e){
 
   q.setAttribute('class', 'cell qa col p-3 align-middle')
   a.setAttribute('class', 'cell qa col p-3 align-middle')
-  qtext.setAttribute('class', 'cell text col p-3 align-middle')
-  atext.setAttribute('class', 'cell text col p-3 align-middle')
+  qtext.setAttribute('class', 'cell text col p-2 align-middle')
+  atext.setAttribute('class', 'cell text col p-2 align-middle')
 
   container.appendChild(bigrow);
 
